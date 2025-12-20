@@ -1,0 +1,932 @@
+[
+  {
+    "id": "A1",
+    "category": "A",
+    "problem": "Solve: 3*x^2 + 7*x - 20 = 0",
+    "expected": "5/3 or -4",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To solve the given equation, we can use the quadratic formula:\n\nx = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nwhere\n\n-b = 3 * x^2 + 7 * x - 20\n-a = 7\n-c = 20\n\nSo, the solution is:\n\nx = (-3 + sqrt(3^2 - 4 * 7 * (-20))) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx =",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 24.2
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to use the quadratic formula to solve for x. The quadratic formula is:\n\nx = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nIn this case, the quadratic formula gives us the solutions:\n\n-4 and 5/3\n\nThese are the final answers.",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 16.6,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To solve the given equation, we can use the quadratic formula:\n\nx = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nwhere\n\n-b = 3 * x^2 + 7 * x - 20\n-a = 7\n-c = 20\n\nSo, the solution is:\n\nx = (-3 + sqrt(3^2 - 4 * 7 * (-20))) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx =",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.3
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to use the quadratic formula to solve for x. The quadratic formula is:\n\nx = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nIn this case, the quadratic formula gives us the solutions:\n\n-4 and 5/3\n\nThese are the final answers.",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 14.8,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To solve the given equation, we can use the quadratic formula:\n\nx = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nwhere\n\n-b = 3 * x^2 + 7 * x - 20\n-a = 7\n-c = 20\n\nSo, the solution is:\n\nx = (-3 + sqrt(3^2 - 4 * 7 * (-20))) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx = (-3 + sqrt(14)) / 2 * 7\nx =",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.4
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to use the quadratic formula to solve for x. The quadratic formula is:\n\nx = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nIn this case, the quadratic formula gives us the solutions:\n\n-4 and 5/3\n\nThese are the final answers.",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 20.3,
+          "method": "symbolic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "A2",
+    "category": "A",
+    "problem": "Find the derivative of x^3 * sin(x)",
+    "expected": "x^2*(x*cos(x)+3*sin(x))",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To find the derivative of x^3 * sin(x), we need to differentiate both sides of the equation:\n\nx^3 * sin(x) = x * sin(x) + c\n\nSubstituting x = 0 into this equation, we get:\n\n0 * sin(0) + c = c\n\nNow, we can differentiate both sides of the equation:\n\n0 * sin'(0) + c = c\n\nDifferentiating both sides of t",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.7
+        },
+        "orchestrator": {
+          "response": "To solve the given problem, we can use the symbolic differentiation method to find the derivative of x^3 * sin(x). We can write this as:\n\nx**2*(x*cos(x) + 3*sin(x))\n\nwhere:\n\n- x: variable representing the argument of the function\n- x**2: square of x\n- x*cos(x): product of x and cos(x)\n- 3*sin(x): pr",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 15.2,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To find the derivative of x^3 * sin(x), we need to differentiate both sides of the equation:\n\nx^3 * sin(x) = x * sin(x) + c\n\nSubstituting x = 0 into this equation, we get:\n\n0 * sin(0) + c = c\n\nNow, we can differentiate both sides of the equation:\n\n0 * sin'(0) + c = c\n\nDifferentiating both sides of t",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.4
+        },
+        "orchestrator": {
+          "response": "To solve the given problem, we can use the symbolic differentiation method to find the derivative of x^3 * sin(x). We can write this as:\n\nx**2*(x*cos(x) + 3*sin(x))\n\nwhere:\n\n- x: variable representing the argument of the function\n- x**2: square of x\n- x*cos(x): product of x and cos(x)\n- 3*sin(x): pr",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 16.2,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To find the derivative of x^3 * sin(x), we need to differentiate both sides of the equation:\n\nx^3 * sin(x) = x * sin(x) + c\n\nSubstituting x = 0 into this equation, we get:\n\n0 * sin(0) + c = c\n\nNow, we can differentiate both sides of the equation:\n\n0 * sin'(0) + c = c\n\nDifferentiating both sides of t",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.3
+        },
+        "orchestrator": {
+          "response": "To solve the given problem, we can use the symbolic differentiation method to find the derivative of x^3 * sin(x). We can write this as:\n\nx**2*(x*cos(x) + 3*sin(x))\n\nwhere:\n\n- x: variable representing the argument of the function\n- x**2: square of x\n- x*cos(x): product of x and cos(x)\n- 3*sin(x): pr",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 16.1,
+          "method": "symbolic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "A3",
+    "category": "A",
+    "problem": "Integrate x^2 * exp(x) from 0 to 1",
+    "expected": "0.7183",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to use the substitution method.\n\nLet's first rewrite the given expression as:\n\nx^2 * exp(x) = (x^2) * exp(x)\n\nSubstituting x = 0 into this expression, we get:\n\n0^2 * exp(0) = 0 * exp(0)\n\nSubstituting x = 1 into this expression, we get:\n\n1^2 * exp(1) = 1 * exp",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.4
+        },
+        "orchestrator": {
+          "response": "To integrate the function x^2 * exp(x) from 0 to 1 using the trapezoidal rule, we can use the following steps:\n\n1. Define the function: x^2 * exp(x)\n\n2. Find the area between the two points: 0 and 1\n\n3. Calculate the sum of the areas: 0 + 1\n\n4. Divide the area by the number of points: 0.5\n\n5. Calcul",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 36.1,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to use the substitution method.\n\nLet's first rewrite the given expression as:\n\nx^2 * exp(x) = (x^2) * exp(x)\n\nSubstituting x = 0 into this expression, we get:\n\n0^2 * exp(0) = 0 * exp(0)\n\nSubstituting x = 1 into this expression, we get:\n\n1^2 * exp(1) = 1 * exp",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.8
+        },
+        "orchestrator": {
+          "response": "To integrate the function x^2 * exp(x) from 0 to 1 using the trapezoidal rule, we can use the following steps:\n\n1. Define the function: x^2 * exp(x)\n\n2. Find the area between the two points: 0 and 1\n\n3. Calculate the sum of the areas: 0 + 1\n\n4. Divide the area by the number of points: 0.5\n\n5. Calcul",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 35.2,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to use the substitution method.\n\nLet's first rewrite the given expression as:\n\nx^2 * exp(x) = (x^2) * exp(x)\n\nSubstituting x = 0 into this expression, we get:\n\n0^2 * exp(0) = 0 * exp(0)\n\nSubstituting x = 1 into this expression, we get:\n\n1^2 * exp(1) = 1 * exp",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.5
+        },
+        "orchestrator": {
+          "response": "To integrate the function x^2 * exp(x) from 0 to 1 using the trapezoidal rule, we can use the following steps:\n\n1. Define the function: x^2 * exp(x)\n\n2. Find the area between the two points: 0 and 1\n\n3. Calculate the sum of the areas: 0 + 1\n\n4. Divide the area by the number of points: 0.5\n\n5. Calcul",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 35.8,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "A4",
+    "category": "A",
+    "problem": "Simplify (x^2 - 4)/(x - 2)",
+    "expected": "x+2",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To simplify the expression (x^2 - 4)/(x - 2), we can use the quadratic formula:\n\n(x - 2)^2 - 4x + 4 = 0\n\nThe roots of this equation are:\n\nx = -2 and x = 2\n\nTherefore, the simplified expression becomes:\n\n(x - 2)^2 - 4x = 0\n\n(x - 2)^2 - 4(2) = 0\n\n(x - 2)^2 - 4 = 0\n\n(x - 2)^2 = 0\n\nTherefore, the simpli",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 5.5
+        },
+        "orchestrator": {
+          "response": "To simplify the expression (x^2 - 4)/(x - 2), we can use the quadratic formula. Substituting x = 2 into the equation, we get:\n\n(2 - 2)^2 - 4(2) + 4 = 0\n\nNow, we can use the quadratic formula to simplify the expression. The final answer is (2 - 2)^2.",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 28.0,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To simplify the expression (x^2 - 4)/(x - 2), we can use the quadratic formula:\n\n(x - 2)^2 - 4x + 4 = 0\n\nThe roots of this equation are:\n\nx = -2 and x = 2\n\nTherefore, the simplified expression becomes:\n\n(x - 2)^2 - 4x = 0\n\n(x - 2)^2 - 4(2) = 0\n\n(x - 2)^2 - 4 = 0\n\n(x - 2)^2 = 0\n\nTherefore, the simpli",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 5.6
+        },
+        "orchestrator": {
+          "response": "To simplify the expression (x^2 - 4)/(x - 2), we can use the quadratic formula. Substituting x = 2 into the equation, we get:\n\n(2 - 2)^2 - 4(2) + 4 = 0\n\nNow, we can use the quadratic formula to simplify the expression. The final answer is (2 - 2)^2.",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 27.4,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To simplify the expression (x^2 - 4)/(x - 2), we can use the quadratic formula:\n\n(x - 2)^2 - 4x + 4 = 0\n\nThe roots of this equation are:\n\nx = -2 and x = 2\n\nTherefore, the simplified expression becomes:\n\n(x - 2)^2 - 4x = 0\n\n(x - 2)^2 - 4(2) = 0\n\n(x - 2)^2 - 4 = 0\n\n(x - 2)^2 = 0\n\nTherefore, the simpli",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 6.2
+        },
+        "orchestrator": {
+          "response": "To simplify the expression (x^2 - 4)/(x - 2), we can use the quadratic formula. Substituting x = 2 into the equation, we get:\n\n(2 - 2)^2 - 4(2) + 4 = 0\n\nNow, we can use the quadratic formula to simplify the expression. The final answer is (2 - 2)^2.",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 27.5,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "A5",
+    "category": "A",
+    "problem": "Find eigenvalues of matrix [[3,1],[1,3]]",
+    "expected": "2 and 4",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To find the eigenvalues of the matrix [[3,1],[1,3]], we can use the characteristic polynomial of the matrix. The characteristic polynomial of the matrix is given by:\n\n```\ncharpoly = (x - 1)**2 + 3*x + 1\n```\n\nWe can simplify this polynomial by using the quadratic formula:\n\n```\neigenvalues = (-1)^(1/2",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 5.3
+        },
+        "orchestrator": {
+          "response": "To find the eigenvalues of the matrix [[3, 1], [1, 3]], a symbolic solution can be obtained using the `eig` function in Python. The eigenvalues are found as a list of dictionaries, where the `numerical` and `multiplicity` keys represent the numerical and multiplicative factors, respectively. The fin",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 15.0,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To find the eigenvalues of the matrix [[3,1],[1,3]], we can use the characteristic polynomial of the matrix. The characteristic polynomial of the matrix is given by:\n\n```\ncharpoly = (x - 1)**2 + 3*x + 1\n```\n\nWe can simplify this polynomial by using the quadratic formula:\n\n```\neigenvalues = (-1)^(1/2",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 4.8
+        },
+        "orchestrator": {
+          "response": "To find the eigenvalues of the matrix [[3, 1], [1, 3]], a symbolic solution can be obtained using the `eig` function in Python. The eigenvalues are found as a list of dictionaries, where the `numerical` and `multiplicity` keys represent the numerical and multiplicative factors, respectively. The fin",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 15.0,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To find the eigenvalues of the matrix [[3,1],[1,3]], we can use the characteristic polynomial of the matrix. The characteristic polynomial of the matrix is given by:\n\n```\ncharpoly = (x - 1)**2 + 3*x + 1\n```\n\nWe can simplify this polynomial by using the quadratic formula:\n\n```\neigenvalues = (-1)^(1/2",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 5.3
+        },
+        "orchestrator": {
+          "response": "To find the eigenvalues of the matrix [[3, 1], [1, 3]], a symbolic solution can be obtained using the `eig` function in Python. The eigenvalues are found as a list of dictionaries, where the `numerical` and `multiplicity` keys represent the numerical and multiplicative factors, respectively. The fin",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 14.9,
+          "method": "symbolic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B1",
+    "category": "B",
+    "problem": "A simply supported beam of length 5m carries uniform load 10 kN/m. Find maximum bending moment.",
+    "expected": "31.25",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to first define the length and the load of the beam.\n\nLength: The length of the beam is 5m.\n\nLoad: The load on the beam is 10 kN/m.\n\nTo find the maximum bending moment, we need to solve the following equation:\n\nMoment = Force * Length\n\nHere, we have:\n\nMoment ",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 4.3
+        },
+        "orchestrator": {
+          "response": "To solve this problem, we can use the lamina method to find the maximum bending moment of a simply supported beam of length 5m carrying a uniform load of 10 kN/m. The beam is simply supported, meaning it does not have any bending moments.\n\nThe lamina method involves considering the following:\n\n1. Th",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 31.2,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to first define the length and the load of the beam.\n\nLength: The length of the beam is 5m.\n\nLoad: The load on the beam is 10 kN/m.\n\nTo find the maximum bending moment, we need to solve the following equation:\n\nMoment = Force * Length\n\nHere, we have:\n\nMoment ",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 4.2
+        },
+        "orchestrator": {
+          "response": "To solve this problem, we can use the lamina method to find the maximum bending moment of a simply supported beam of length 5m carrying a uniform load of 10 kN/m. The beam is simply supported, meaning it does not have any bending moments.\n\nThe lamina method involves considering the following:\n\n1. Th",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 31.2,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to first define the length and the load of the beam.\n\nLength: The length of the beam is 5m.\n\nLoad: The load on the beam is 10 kN/m.\n\nTo find the maximum bending moment, we need to solve the following equation:\n\nMoment = Force * Length\n\nHere, we have:\n\nMoment ",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 4.2
+        },
+        "orchestrator": {
+          "response": "To solve this problem, we can use the lamina method to find the maximum bending moment of a simply supported beam of length 5m carrying a uniform load of 10 kN/m. The beam is simply supported, meaning it does not have any bending moments.\n\nThe lamina method involves considering the following:\n\n1. Th",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 31.3,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B2",
+    "category": "B",
+    "problem": "Calculate natural frequency of spring-mass system with k=1000 N/m and m=5 kg",
+    "expected": "14.14",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To calculate the natural frequency of a spring-mass system with a spring constant of 1000 N/m and a mass of 5 kg, we can use the following formula:\n\nNatural frequency = 2\u03c0 / spring constant\n\nIn this case, we have:\n\nNatural frequency = 2\u03c0 / 1000 = 0.0167 rad/s\n\nTherefore, the natural frequency of the",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 3.8
+        },
+        "orchestrator": {
+          "response": "To calculate the natural frequency of a spring-mass system with a spring constant of 1000 N/m and a mass of 5 kg, we can use the solution to the system of differential equations given in the text. The solution is given by the expression:\n\ng * i * n * p * r * exp(-1) / (m * s * t * y)\n\nwhere g is the",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 19.8,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To calculate the natural frequency of a spring-mass system with a spring constant of 1000 N/m and a mass of 5 kg, we can use the following formula:\n\nNatural frequency = 2\u03c0 / spring constant\n\nIn this case, we have:\n\nNatural frequency = 2\u03c0 / 1000 = 0.0167 rad/s\n\nTherefore, the natural frequency of the",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 3.8
+        },
+        "orchestrator": {
+          "response": "To calculate the natural frequency of a spring-mass system with a spring constant of 1000 N/m and a mass of 5 kg, we can use the solution to the system of differential equations given in the text. The solution is given by the expression:\n\ng * i * n * p * r * exp(-1) / (m * s * t * y)\n\nwhere g is the",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 19.7,
+          "method": "symbolic"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To calculate the natural frequency of a spring-mass system with a spring constant of 1000 N/m and a mass of 5 kg, we can use the following formula:\n\nNatural frequency = 2\u03c0 / spring constant\n\nIn this case, we have:\n\nNatural frequency = 2\u03c0 / 1000 = 0.0167 rad/s\n\nTherefore, the natural frequency of the",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 3.9
+        },
+        "orchestrator": {
+          "response": "To calculate the natural frequency of a spring-mass system with a spring constant of 1000 N/m and a mass of 5 kg, we can use the solution to the system of differential equations given in the text. The solution is given by the expression:\n\ng * i * n * p * r * exp(-1) / (m * s * t * y)\n\nwhere g is the",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 19.7,
+          "method": "symbolic"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B3",
+    "category": "B",
+    "problem": "Fluid flows through pipe diameter 0.1m at 2 m/s. Calculate Reynolds number with density=1000 and viscosity=0.001",
+    "expected": "200000",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to first define the variables and the problem statement.\n\nVariables:\n- Pipe diameter: 0.1m\n- Flow rate: 2 m/s\n- Density: 1000 kg/m\u00b3\n- Viscosity: 0.001 Pa\u00b7s\n\nProblem statement:\nA fluid flows through a pipe with diameter 0.1m at a constant flow rate of 2 m/s. C",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 11.6
+        },
+        "orchestrator": {
+          "response": "To solve the problem of a fluid flowing through a pipe with diameter 0.1m at a velocity of 2 m/s, we need to calculate the Reynolds number using the following formula:\n\nRe = 1/\u03bd = 1/\u03c1 * 2 * 0.1 * 2 * 2 * 2 * 2 * 2 * 2 *\n\nThe final answer is 10,000.",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 28.8,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to first define the variables and the problem statement.\n\nVariables:\n- Pipe diameter: 0.1m\n- Flow rate: 2 m/s\n- Density: 1000 kg/m\u00b3\n- Viscosity: 0.001 Pa\u00b7s\n\nProblem statement:\nA fluid flows through a pipe with diameter 0.1m at a constant flow rate of 2 m/s. C",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 11.6
+        },
+        "orchestrator": {
+          "response": "To solve the problem of a fluid flowing through a pipe with diameter 0.1m at a velocity of 2 m/s, we need to calculate the Reynolds number using the following formula:\n\nRe = 1/\u03bd = 1/\u03c1 * 2 * 0.1 * 2 * 2 * 2 * 2 * 2 * 2 *\n\nThe final answer is 10,000.",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 28.7,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To solve this problem precisely, we need to first define the variables and the problem statement.\n\nVariables:\n- Pipe diameter: 0.1m\n- Flow rate: 2 m/s\n- Density: 1000 kg/m\u00b3\n- Viscosity: 0.001 Pa\u00b7s\n\nProblem statement:\nA fluid flows through a pipe with diameter 0.1m at a constant flow rate of 2 m/s. C",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 11.6
+        },
+        "orchestrator": {
+          "response": "To solve the problem of a fluid flowing through a pipe with diameter 0.1m at a velocity of 2 m/s, we need to calculate the Reynolds number using the following formula:\n\nRe = 1/\u03bd = 1/\u03c1 * 2 * 0.1 * 2 * 2 * 2 * 2 * 2 * 2 *\n\nThe final answer is 10,000.",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 29.3,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B4",
+    "category": "B",
+    "problem": "Find pole locations for: s^2 + 5*s + 6 = 0",
+    "expected": "-2 and -3",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To solve this polynomial equation, we can use the quadratic formula:\n\ns = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nwhere\n\n-b = (-2 + sqrt(5)) / 2\n-a = 2\n-c = 6\n\nSo, the pole locations are:\n\ns = (-2 + sqrt(5)) / 2\ns = (-2 - sqrt(5)) / 2\ns = (-2 + sqrt(5)) / 2\ns = (-2 - sqrt(5)) / 2\n\nTherefore, the pole locations",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.2
+        },
+        "orchestrator": {
+          "response": "To find pole locations for a quadratic equation with the given coefficients, we can use the lm function in R. The solution involves finding the roots of the quadratic equation (-1.4142135623730951 and -0.7071067811865475) and finding the roots of the quadratic equation (-1.4142135623730951, -0.70710",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 23.5,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To solve this polynomial equation, we can use the quadratic formula:\n\ns = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nwhere\n\n-b = (-2 + sqrt(5)) / 2\n-a = 2\n-c = 6\n\nSo, the pole locations are:\n\ns = (-2 + sqrt(5)) / 2\ns = (-2 - sqrt(5)) / 2\ns = (-2 + sqrt(5)) / 2\ns = (-2 - sqrt(5)) / 2\n\nTherefore, the pole locations",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.6
+        },
+        "orchestrator": {
+          "response": "To find pole locations for a quadratic equation with the given coefficients, we can use the lm function in R. The solution involves finding the roots of the quadratic equation (-1.4142135623730951 and -0.7071067811865475) and finding the roots of the quadratic equation (-1.4142135623730951, -0.70710",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 24.2,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To solve this polynomial equation, we can use the quadratic formula:\n\ns = (-b \u00b1 sqrt(b^2 - 4ac)) / 2a\n\nwhere\n\n-b = (-2 + sqrt(5)) / 2\n-a = 2\n-c = 6\n\nSo, the pole locations are:\n\ns = (-2 + sqrt(5)) / 2\ns = (-2 - sqrt(5)) / 2\ns = (-2 + sqrt(5)) / 2\ns = (-2 - sqrt(5)) / 2\n\nTherefore, the pole locations",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.4
+        },
+        "orchestrator": {
+          "response": "To find pole locations for a quadratic equation with the given coefficients, we can use the lm function in R. The solution involves finding the roots of the quadratic equation (-1.4142135623730951 and -0.7071067811865475) and finding the roots of the quadratic equation (-1.4142135623730951, -0.70710",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 23.9,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "B5",
+    "category": "B",
+    "problem": "Explain PI controller tuning to achieve settling time less than 2 seconds for first order system with time constant 1s",
+    "expected": "Kp Ki tuning",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "To solve the problem of settling time less than 2 seconds for a first-order system with a time constant of 1s, we can use a PI controller. A PI controller is a type of feedback controller that uses a PID (Proportional, Integral, Derivative) algorithm to control the system.\n\nTo achieve settling time ",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.6
+        },
+        "orchestrator": {
+          "response": "To achieve settling time less than 2 seconds for a first-order system with a time constant of 1s, the PI controller can be tuned to a specific gain and feedback gain. The PI controller is a type of feedback control system that uses a feedback signal to adjust the output of the system based on the in",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 30.1,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "To solve the problem of settling time less than 2 seconds for a first-order system with a time constant of 1s, we can use a PI controller. A PI controller is a type of feedback controller that uses a PID (Proportional, Integral, Derivative) algorithm to control the system.\n\nTo achieve settling time ",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.4
+        },
+        "orchestrator": {
+          "response": "To achieve settling time less than 2 seconds for a first-order system with a time constant of 1s, the PI controller can be tuned to a specific gain and feedback gain. The PI controller is a type of feedback control system that uses a feedback signal to adjust the output of the system based on the in",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 29.3,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "To solve the problem of settling time less than 2 seconds for a first-order system with a time constant of 1s, we can use a PI controller. A PI controller is a type of feedback controller that uses a PID (Proportional, Integral, Derivative) algorithm to control the system.\n\nTo achieve settling time ",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.4
+        },
+        "orchestrator": {
+          "response": "To achieve settling time less than 2 seconds for a first-order system with a time constant of 1s, the PI controller can be tuned to a specific gain and feedback gain. The PI controller is a type of feedback control system that uses a feedback signal to adjust the output of the system based on the in",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 29.8,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "C1",
+    "category": "C",
+    "problem": "Explain why gradient descent can get stuck in local minima and suggest 3 solutions",
+    "expected": "momentum random restarts",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "Gradient descent is a popular optimization algorithm that is used to find the minimum or local minimum of a function. However, it can get stuck in local minima if the gradient is not sufficiently large or if the step size is too small. Here are three solutions to overcome this issue:\n\n1. Increase th",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 8.5
+        },
+        "orchestrator": {
+          "response": "The solution to the problem of gradient descent getting stuck in local minima is to use a different optimization algorithm, such as the L-BFGS algorithm, which is a more robust and efficient method for finding local minima. The 3 solutions suggested are:\n\n1. Use a different optimization algorithm: T",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 32.4,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "Gradient descent is a popular optimization algorithm that is used to find the minimum or local minimum of a function. However, it can get stuck in local minima if the gradient is not sufficiently large or if the step size is too small. Here are three solutions to overcome this issue:\n\n1. Increase th",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 8.7
+        },
+        "orchestrator": {
+          "response": "The solution to the problem of gradient descent getting stuck in local minima is to use a different optimization algorithm, such as the L-BFGS algorithm, which is a more robust and efficient method for finding local minima. The 3 solutions suggested are:\n\n1. Use a different optimization algorithm: T",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 32.5,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "Gradient descent is a popular optimization algorithm that is used to find the minimum or local minimum of a function. However, it can get stuck in local minima if the gradient is not sufficiently large or if the step size is too small. Here are three solutions to overcome this issue:\n\n1. Increase th",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 8.4
+        },
+        "orchestrator": {
+          "response": "The solution to the problem of gradient descent getting stuck in local minima is to use a different optimization algorithm, such as the L-BFGS algorithm, which is a more robust and efficient method for finding local minima. The 3 solutions suggested are:\n\n1. Use a different optimization algorithm: T",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 32.4,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "C2",
+    "category": "C",
+    "problem": "Compare time complexity of bubble sort vs quicksort and explain when each is preferred",
+    "expected": "O(n^2) O(n log n)",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "Bubble sort and quicksort are two popular sorting algorithms that compare elements in an array and swap them if they are in the wrong order. The time complexity of these algorithms is given by the following table:\n\n| Algorithm | Time Complexity |\n|-----------|-----------------|\n| Bubble sort | O(n^2",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 8.1
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to compare the time complexity of bubble sort vs quicksort and explain when each is preferred. Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements in an unsorted array until the entire array is sorted. It has a time complexity of O(n^2), ",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 22.3,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "Bubble sort and quicksort are two popular sorting algorithms that compare elements in an array and swap them if they are in the wrong order. The time complexity of these algorithms is given by the following table:\n\n| Algorithm | Time Complexity |\n|-----------|-----------------|\n| Bubble sort | O(n^2",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 8.2
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to compare the time complexity of bubble sort vs quicksort and explain when each is preferred. Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements in an unsorted array until the entire array is sorted. It has a time complexity of O(n^2), ",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 22.7,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "Bubble sort and quicksort are two popular sorting algorithms that compare elements in an array and swap them if they are in the wrong order. The time complexity of these algorithms is given by the following table:\n\n| Algorithm | Time Complexity |\n|-----------|-----------------|\n| Bubble sort | O(n^2",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 8.4
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to compare the time complexity of bubble sort vs quicksort and explain when each is preferred. Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements in an unsorted array until the entire array is sorted. It has a time complexity of O(n^2), ",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 22.5,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "C3",
+    "category": "C",
+    "problem": "Why does increasing batch size in deep learning affect generalization? Give mathematical intuition",
+    "expected": "sharp minima gradient noise",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "Increasing batch size in deep learning can affect generalization in several ways. Here are some mathematical intuitions:\n\n1. Increasing batch size can lead to more data being used in training, which can improve the generalization of the model. This is because more data is more likely to be represent",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 11.7
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to explain the mathematical intuition behind the effect of increasing batch size in deep learning on generalization. Specifically, increasing batch size can affect the number of examples used in training, which can lead to a decrease in the generalization ability of t",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 33.6,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "Increasing batch size in deep learning can affect generalization in several ways. Here are some mathematical intuitions:\n\n1. Increasing batch size can lead to more data being used in training, which can improve the generalization of the model. This is because more data is more likely to be represent",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 11.8
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to explain the mathematical intuition behind the effect of increasing batch size in deep learning on generalization. Specifically, increasing batch size can affect the number of examples used in training, which can lead to a decrease in the generalization ability of t",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 33.6,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "Increasing batch size in deep learning can affect generalization in several ways. Here are some mathematical intuitions:\n\n1. Increasing batch size can lead to more data being used in training, which can improve the generalization of the model. This is because more data is more likely to be represent",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 11.7
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to explain the mathematical intuition behind the effect of increasing batch size in deep learning on generalization. Specifically, increasing batch size can affect the number of examples used in training, which can lead to a decrease in the generalization ability of t",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 33.7,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "C4",
+    "category": "C",
+    "problem": "How does L1 vs L2 regularization affect weight sparsity? Derive mathematically why L1 induces sparsity",
+    "expected": "subdifferential zero",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "L1 vs L2 regularization is a popular technique in deep learning for improving the model's generalization ability. In this context, L1 regularization refers to the use of a L1 loss function, while L2 regularization refers to the use of a L2 loss function.\n\nIn both cases, the goal is to reduce the siz",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.3
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to derive mathematically why L1 regularization induces sparsity. L1 regularization, also known as L1 penalty, penalizes the weights of a neural network by adding a term to the loss function that is proportional to the absolute value of the weights. This term encourage",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 28.2,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "L1 vs L2 regularization is a popular technique in deep learning for improving the model's generalization ability. In this context, L1 regularization refers to the use of a L1 loss function, while L2 regularization refers to the use of a L2 loss function.\n\nIn both cases, the goal is to reduce the siz",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.2
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to derive mathematically why L1 regularization induces sparsity. L1 regularization, also known as L1 penalty, penalizes the weights of a neural network by adding a term to the loss function that is proportional to the absolute value of the weights. This term encourage",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 28.3,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "L1 vs L2 regularization is a popular technique in deep learning for improving the model's generalization ability. In this context, L1 regularization refers to the use of a L1 loss function, while L2 regularization refers to the use of a L2 loss function.\n\nIn both cases, the goal is to reduce the siz",
+          "correct": false,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.7
+        },
+        "orchestrator": {
+          "response": "The solution to this problem is to derive mathematically why L1 regularization induces sparsity. L1 regularization, also known as L1 penalty, penalizes the weights of a neural network by adding a term to the loss function that is proportional to the absolute value of the weights. This term encourage",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 29.5,
+          "method": "llm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "C5",
+    "category": "C",
+    "problem": "Analyze the bias variance tradeoff when increasing model complexity. Include the decomposition formula",
+    "expected": "Bias squared Variance",
+    "runs": [
+      {
+        "run": 1,
+        "llm_only": {
+          "response": "The bias-variance tradeoff refers to the trade-off between the bias (or error) of a model and its variance (or uncertainty). When increasing model complexity, the bias-variance tradeoff can become more pronounced, leading to increased model error and decreased model accuracy.\n\nTo analyze this tradeo",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.5
+        },
+        "orchestrator": {
+          "response": "The solution to this problem involves analyzing the bias-variance tradeoff when increasing model complexity. The decomposition formula for the bias-variance tradeoff is provided in the solved steps. The solution involves analyzing the trade-off between the bias (or error) of a model and its variance",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 25.4,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 2,
+        "llm_only": {
+          "response": "The bias-variance tradeoff refers to the trade-off between the bias (or error) of a model and its variance (or uncertainty). When increasing model complexity, the bias-variance tradeoff can become more pronounced, leading to increased model error and decreased model accuracy.\n\nTo analyze this tradeo",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.7
+        },
+        "orchestrator": {
+          "response": "The solution to this problem involves analyzing the bias-variance tradeoff when increasing model complexity. The decomposition formula for the bias-variance tradeoff is provided in the solved steps. The solution involves analyzing the trade-off between the bias (or error) of a model and its variance",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 25.8,
+          "method": "llm"
+        }
+      },
+      {
+        "run": 3,
+        "llm_only": {
+          "response": "The bias-variance tradeoff refers to the trade-off between the bias (or error) of a model and its variance (or uncertainty). When increasing model complexity, the bias-variance tradeoff can become more pronounced, leading to increased model error and decreased model accuracy.\n\nTo analyze this tradeo",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 12.4
+        },
+        "orchestrator": {
+          "response": "The solution to this problem involves analyzing the bias-variance tradeoff when increasing model complexity. The decomposition formula for the bias-variance tradeoff is provided in the solved steps. The solution involves analyzing the trade-off between the bias (or error) of a model and its variance",
+          "correct": true,
+          "hallucination": false,
+          "steps": 1,
+          "time": 25.2,
+          "method": "llm"
+        }
+      }
+    ]
+  }
+]
