@@ -8,7 +8,7 @@
 ## Abstract
 
 Large Language Models exhibit impressive natural language understanding yet fail
-systematically on tasks requiring exact arithmetic and symbolic manipulation — a
+systematically on tasks requiring exact arithmetic and symbolic manipulation  a
 well-documented phenomenon known as arithmetic hallucination (Kevian et al., 2024).
 This project implements the **AI Reasoning Orchestrator** framework, a neuro-symbolic
 architecture where the LLM acts as a semantic orchestrator that decomposes complex
@@ -18,7 +18,7 @@ symbolic engine, and validates each step before synthesis.
 Evaluation across 15 problems (5 pure math, 5 engineering, 5 multi-step reasoning)
 shows the orchestrated pipeline achieves **40% accuracy on pure math vs 0% for
 LLM-only**, confirming that symbolic routing provides the largest gains precisely
-where LLMs are weakest — exact computation.
+where LLMs are weakest  exact computation.
 
 ---
 
@@ -58,16 +58,16 @@ User Problem → Decompose → Classify → Route → Validate → Final Answer
 
 | Category              | LLM-Only | Orchestrator | Improvement |
 |-----------------------|----------|--------------|-------------|
-| A — Pure Math (n=5)   | 0%       | **40%**      | +40 pp      |
-| B — Engineering (n=5) | 20%      | **40%**      | +20 pp      |
-| C — Reasoning (n=5)   | 60%      | 60%          | 0 pp        |
+| A - Pure Math (n=5)   | 0%       | **40%**      | +40 pp      |
+| B - Engineering (n=5) | 20%      | **40%**      | +20 pp      |
+| C - Reasoning (n=5)   | 60%      | 60%          | 0 pp        |
 | **Overall**           | **27%**  | **47%**      | **+20 pp**  |
 
 ### Key Finding
 
 The orchestrator's advantage is largest on pure math (Category A), where the
 LLM-only baseline scores 0% due to arithmetic brittleness. The symbolic routing
-to SymPy raises this to 40% — consistent with the core hypothesis that
+to SymPy raises this to 40%  consistent with the core hypothesis that
 neuro-symbolic routing prevents hallucination on computation-heavy tasks.
 
 On conceptual reasoning (Category C), both systems perform identically (60%),
@@ -75,7 +75,7 @@ confirming that symbolic tools add value only when computation is required.
 
 ### Hallucination Rate
 
-Both conditions show 0% hallucination with TinyLlama — the model is conservative
+Both conditions show 0% hallucination with TinyLlama  the model is conservative
 and avoids fabricating specific numerical results it is uncertain about.
 
 ---
@@ -95,7 +95,7 @@ and avoids fabricating specific numerical results it is uncertain about.
 ## Repository Structure
 ```
 llm-reasoning-orchestrator/
-├── orchestrator.py         # ReasoningOrchestrator — core pipeline
+├── orchestrator.py         # ReasoningOrchestrator  core pipeline
 ├── symbolic_solver.py      # SymPy wrapper
 ├── benchmark.py            # 15-problem benchmark
 ├── results_analyzer.py     # Plot generation
