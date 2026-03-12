@@ -205,5 +205,5 @@ The benchmark requires a GPU or significant patience on CPU. Google Colab free t
 
 ---
 
-*Part of a research portfolio for MSc applications in Machine Learning and Computer Science.*  
+
 *Related: [Neural Network Optimizer Study](https://github.com/ajinkya-awari) · [GNN Agricultural Networks](https://github.com/ajinkya-awari)*
